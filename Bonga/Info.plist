@@ -39,5 +39,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Bonga requires Access to Your Camera</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Bonga requires Access to Your Gallery</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Bonga requires Access to Your Photo Library</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Bonga requires Access to Your Microphone</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Bonga requires Access to Your Location</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Bonga requires Access to Your Contacts List</string>
 </dict>
 </plist>

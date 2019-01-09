@@ -1,0 +1,6 @@
+framework module Pods_Bonga {
+  umbrella header "Pods-Bonga-umbrella.h"
+
+  export *
+  module * { export * }
+}

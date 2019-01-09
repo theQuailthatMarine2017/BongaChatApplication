@@ -7,14 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39DAFF6D068BD94291EF9C54 /* Pods_Bonga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CB7F18EE30F20E8607DC9D /* Pods_Bonga.framework */; };
+		8402E771216C8BAE004562B6 /* UserProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402E770216C8BAE004562B6 /* UserProfileTableViewController.swift */; };
+		841290DE2175CFD300AC614B /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841290DD2175CFD300AC614B /* ChatsViewController.swift */; };
+		842C2177217D89980024A98C /* PhotoMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C2176217D89980024A98C /* PhotoMediaItem.swift */; };
+		8435B32321ABFA04001C35C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435B32221ABFA01001C35C7 /* MapViewController.swift */; };
+		8439AE8D2164A8B4007C3499 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439AE8C2164A8B2007C3499 /* FUser.swift */; };
+		8439AE8F2164A99B007C3499 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439AE8E2164A99B007C3499 /* Constants.swift */; };
+		8439AE912164AF04007C3499 /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439AE902164AF04007C3499 /* FCollectionReference.swift */; };
+		8439AE932164B069007C3499 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439AE922164B069007C3499 /* HelperFunctions.swift */; };
+		8439AE9521650C51007C3499 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439AE9421650C51007C3499 /* FinishRegistrationViewController.swift */; };
+		843FD67521786C8E00EBEAB6 /* IncomingMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FD67421786C8D00EBEAB6 /* IncomingMessages.swift */; };
+		8442614C216352570056EA44 /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442614B216352570056EA44 /* LoginRegisterViewController.swift */; };
+		845BFFA421DE6394005B2A3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 845BFFA321DE6393005B2A3C /* GoogleService-Info.plist */; };
+		845ECCEE21678DFF00BB1DE8 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECCED21678DFE00BB1DE8 /* SettingTableViewController.swift */; };
+		845ECCF42168DC1200BB1DE8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECCF32168DC1100BB1DE8 /* TableViewCell.swift */; };
+		845ECCF62168E44100BB1DE8 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECCF52168E44100BB1DE8 /* UsersTableViewController.swift */; };
+		845ECCF82168EF2B00BB1DE8 /* ChatPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECCF72168EF2B00BB1DE8 /* ChatPageViewController.swift */; };
+		8466BFDB21A6AFFE003D3184 /* AudioMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466BFDA21A6AFFC003D3184 /* AudioMessageViewController.swift */; };
+		849BB190217F0D8E00E6DDE8 /* VideoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BB18F217F0D8D00E6DDE8 /* VideoMessage.swift */; };
 		849C0F2521626A9A001FFCBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C0F2421626A9A001FFCBD /* AppDelegate.swift */; };
 		849C0F2721626A9A001FFCBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C0F2621626A9A001FFCBD /* ViewController.swift */; };
 		849C0F2A21626A9B001FFCBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C0F2821626A9B001FFCBD /* Main.storyboard */; };
 		849C0F2C21626AC3001FFCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849C0F2B21626AC3001FFCBD /* Assets.xcassets */; };
 		849C0F2F21626AC3001FFCBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C0F2D21626AC3001FFCBD /* LaunchScreen.storyboard */; };
+		849F86F521708CAC00F7A819 /* RecentChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F86F421708CAB00F7A819 /* RecentChatTableViewCell.swift */; };
+		84B1B91F216E1C23001D3786 /* RecentChats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1B91E216E1C22001D3786 /* RecentChats.swift */; };
+		84D253C221B0249900CED0F1 /* PictureGalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D253C121B0249900CED0F1 /* PictureGalleryCollectionViewController.swift */; };
+		84D253C421B026A400CED0F1 /* PictureGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D253C321B026A400CED0F1 /* PictureGalleryCollectionViewCell.swift */; };
+		84FC2C732177419C00C5F7DB /* OutgoingMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC2C722177419B00C5F7DB /* OutgoingMessages.swift */; };
+		84FFE428217B02D100AF3490 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFE427217B02CD00AF3490 /* Camera.swift */; };
+		84FFE42A217B159700AF3490 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFE429217B159700AF3490 /* Downloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8402E770216C8BAE004562B6 /* UserProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewController.swift; sourceTree = "<group>"; };
+		841290DD2175CFD300AC614B /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		842C2176217D89980024A98C /* PhotoMediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMediaItem.swift; sourceTree = "<group>"; };
+		8435B32221ABFA01001C35C7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8439AE8C2164A8B2007C3499 /* FUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		8439AE8E2164A99B007C3499 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8439AE902164AF04007C3499 /* FCollectionReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		8439AE922164B069007C3499 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		8439AE9421650C51007C3499 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		843FD67421786C8D00EBEAB6 /* IncomingMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingMessages.swift; sourceTree = "<group>"; };
+		8442614B216352570056EA44 /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
+		845BFFA321DE6393005B2A3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		845ECCED21678DFE00BB1DE8 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		845ECCF32168DC1100BB1DE8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		845ECCF52168E44100BB1DE8 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		845ECCF72168EF2B00BB1DE8 /* ChatPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPageViewController.swift; sourceTree = "<group>"; };
+		8466BFDA21A6AFFC003D3184 /* AudioMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMessageViewController.swift; sourceTree = "<group>"; };
+		849BB18F217F0D8D00E6DDE8 /* VideoMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMessage.swift; sourceTree = "<group>"; };
 		849C0F2121626A9A001FFCBD /* Bonga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849C0F2421626A9A001FFCBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849C0F2621626A9A001FFCBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +66,16 @@
 		849C0F2B21626AC3001FFCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849C0F2E21626AC3001FFCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849C0F3021626AC3001FFCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849F86F421708CAB00F7A819 /* RecentChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentChatTableViewCell.swift; sourceTree = "<group>"; };
+		84B1B91E216E1C22001D3786 /* RecentChats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentChats.swift; sourceTree = "<group>"; };
+		84D253C121B0249900CED0F1 /* PictureGalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureGalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		84D253C321B026A400CED0F1 /* PictureGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		84FC2C722177419B00C5F7DB /* OutgoingMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutgoingMessages.swift; sourceTree = "<group>"; };
+		84FFE427217B02CD00AF3490 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		84FFE429217B159700AF3490 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		A7CB7F18EE30F20E8607DC9D /* Pods_Bonga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bonga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB78ED1F611995106A58C8D6 /* Pods-Bonga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonga.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bonga/Pods-Bonga.release.xcconfig"; sourceTree = "<group>"; };
+		ACA55C9CB77F1CCC55FA04C8 /* Pods-Bonga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonga.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bonga/Pods-Bonga.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39DAFF6D068BD94291EF9C54 /* Pods_Bonga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BC5D1FAB5B133228FAA0958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB7F18EE30F20E8607DC9D /* Pods_Bonga.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8370743537C76FA5FCD4E3E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACA55C9CB77F1CCC55FA04C8 /* Pods-Bonga.debug.xcconfig */,
+				AB78ED1F611995106A58C8D6 /* Pods-Bonga.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		849C0F1821626A99001FFCBD = {
 			isa = PBXGroup;
 			children = (
 				849C0F2321626A9A001FFCBD /* Bonga */,
 				849C0F2221626A9A001FFCBD /* Products */,
+				8370743537C76FA5FCD4E3E4 /* Pods */,
+				2BC5D1FAB5B133228FAA0958 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +129,36 @@
 			isa = PBXGroup;
 			children = (
 				849C0F2421626A9A001FFCBD /* AppDelegate.swift */,
+				8442614B216352570056EA44 /* LoginRegisterViewController.swift */,
+				845ECCF32168DC1100BB1DE8 /* TableViewCell.swift */,
+				849F86F421708CAB00F7A819 /* RecentChatTableViewCell.swift */,
+				8439AE9421650C51007C3499 /* FinishRegistrationViewController.swift */,
+				845ECCED21678DFE00BB1DE8 /* SettingTableViewController.swift */,
+				845ECCF52168E44100BB1DE8 /* UsersTableViewController.swift */,
+				8439AE8C2164A8B2007C3499 /* FUser.swift */,
+				84B1B91E216E1C22001D3786 /* RecentChats.swift */,
+				84FC2C722177419B00C5F7DB /* OutgoingMessages.swift */,
+				843FD67421786C8D00EBEAB6 /* IncomingMessages.swift */,
+				8439AE902164AF04007C3499 /* FCollectionReference.swift */,
+				8439AE8E2164A99B007C3499 /* Constants.swift */,
 				849C0F2621626A9A001FFCBD /* ViewController.swift */,
+				8439AE922164B069007C3499 /* HelperFunctions.swift */,
+				84FFE429217B159700AF3490 /* Downloader.swift */,
+				84FFE427217B02CD00AF3490 /* Camera.swift */,
+				842C2176217D89980024A98C /* PhotoMediaItem.swift */,
+				849BB18F217F0D8D00E6DDE8 /* VideoMessage.swift */,
+				845ECCF72168EF2B00BB1DE8 /* ChatPageViewController.swift */,
+				8402E770216C8BAE004562B6 /* UserProfileTableViewController.swift */,
+				841290DD2175CFD300AC614B /* ChatsViewController.swift */,
+				8466BFDA21A6AFFC003D3184 /* AudioMessageViewController.swift */,
+				8435B32221ABFA01001C35C7 /* MapViewController.swift */,
+				84D253C121B0249900CED0F1 /* PictureGalleryCollectionViewController.swift */,
+				84D253C321B026A400CED0F1 /* PictureGalleryCollectionViewCell.swift */,
 				849C0F2821626A9B001FFCBD /* Main.storyboard */,
 				849C0F2B21626AC3001FFCBD /* Assets.xcassets */,
 				849C0F2D21626AC3001FFCBD /* LaunchScreen.storyboard */,
 				849C0F3021626AC3001FFCBD /* Info.plist */,
+				845BFFA321DE6393005B2A3C /* GoogleService-Info.plist */,
 			);
 			path = Bonga;
 			sourceTree = "<group>";
@@ -71,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849C0F3321626AC3001FFCBD /* Build configuration list for PBXNativeTarget "Bonga" */;
 			buildPhases = (
+				1AFAD02019FE1A61D5E1CE4A /* [CP] Check Pods Manifest.lock */,
 				849C0F1D21626A9A001FFCBD /* Sources */,
 				849C0F1E21626A9A001FFCBD /* Frameworks */,
 				849C0F1F21626A9A001FFCBD /* Resources */,
+				EDA40AF77F67248D0845B84B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849C0F2F21626AC3001FFCBD /* LaunchScreen.storyboard in Resources */,
+				845BFFA421DE6394005B2A3C /* GoogleService-Info.plist in Resources */,
 				849C0F2C21626AC3001FFCBD /* Assets.xcassets in Resources */,
 				849C0F2A21626A9B001FFCBD /* Main.storyboard in Resources */,
 			);
@@ -130,13 +232,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AFAD02019FE1A61D5E1CE4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bonga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA40AF77F67248D0845B84B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bonga/Pods-Bonga-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/IQAudioRecorderController/IQAudioRecorderController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SCSiriWaveformView/SCSiriWaveformView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQAudioRecorderController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSiriWaveformView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bonga/Pods-Bonga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		849C0F1D21626A9A001FFCBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D253C221B0249900CED0F1 /* PictureGalleryCollectionViewController.swift in Sources */,
+				8402E771216C8BAE004562B6 /* UserProfileTableViewController.swift in Sources */,
+				8439AE932164B069007C3499 /* HelperFunctions.swift in Sources */,
+				8466BFDB21A6AFFE003D3184 /* AudioMessageViewController.swift in Sources */,
+				8439AE912164AF04007C3499 /* FCollectionReference.swift in Sources */,
+				8439AE8F2164A99B007C3499 /* Constants.swift in Sources */,
+				8442614C216352570056EA44 /* LoginRegisterViewController.swift in Sources */,
+				84FC2C732177419C00C5F7DB /* OutgoingMessages.swift in Sources */,
+				8435B32321ABFA04001C35C7 /* MapViewController.swift in Sources */,
+				849F86F521708CAC00F7A819 /* RecentChatTableViewCell.swift in Sources */,
+				841290DE2175CFD300AC614B /* ChatsViewController.swift in Sources */,
+				8439AE9521650C51007C3499 /* FinishRegistrationViewController.swift in Sources */,
+				845ECCF62168E44100BB1DE8 /* UsersTableViewController.swift in Sources */,
+				84FFE42A217B159700AF3490 /* Downloader.swift in Sources */,
+				845ECCF42168DC1200BB1DE8 /* TableViewCell.swift in Sources */,
+				842C2177217D89980024A98C /* PhotoMediaItem.swift in Sources */,
+				84B1B91F216E1C23001D3786 /* RecentChats.swift in Sources */,
+				84FFE428217B02D100AF3490 /* Camera.swift in Sources */,
+				845ECCF82168EF2B00BB1DE8 /* ChatPageViewController.swift in Sources */,
 				849C0F2721626A9A001FFCBD /* ViewController.swift in Sources */,
+				845ECCEE21678DFF00BB1DE8 /* SettingTableViewController.swift in Sources */,
 				849C0F2521626A9A001FFCBD /* AppDelegate.swift in Sources */,
+				84D253C421B026A400CED0F1 /* PictureGalleryCollectionViewCell.swift in Sources */,
+				8439AE8D2164A8B4007C3499 /* FUser.swift in Sources */,
+				843FD67521786C8E00EBEAB6 /* IncomingMessages.swift in Sources */,
+				849BB190217F0D8E00E6DDE8 /* VideoMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +495,13 @@
 		};
 		849C0F3421626AC3001FFCBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA55C9CB77F1CCC55FA04C8 /* Pods-Bonga.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NX565SC9U7;
 				INFOPLIST_FILE = Bonga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +515,13 @@
 		};
 		849C0F3521626AC3001FFCBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB78ED1F611995106A58C8D6 /* Pods-Bonga.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NX565SC9U7;
 				INFOPLIST_FILE = Bonga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
